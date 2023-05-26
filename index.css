@@ -1,18 +1,18 @@
-#msg{
+#msg {
 
     display: none;
     font-size: 2vw;
 
 }
 
-#timeText{
+#timeText {
 
     display: none;
     font-size: 1vw;
 
 }
 
-#img{
+#img {
 
     display: block;
     width: 10vw;
@@ -20,7 +20,7 @@
 }
 
 /* Bestämmer ordningen av knapparna */
-.options{
+.options {
     
     padding: 1vw;
     margin: 1vw;
@@ -36,11 +36,12 @@
 }
 
 /* Bestämmer vart knappsatsen ska ligga */
-#optHead{
+#optHead {
 
     position: fixed;
     top: 50%;
     left: 50%;
+    
     /* Flyttar på punkten som positionen baseras på till mitten av knappsatsen */
     transform: translate(-50%, -50%);
     
