@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-DOM</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+        
+    <div id="header">
+        <!-- Om funktionen inte kan laddas fram för någon anledning vissas följande som felkod -->
+        <h1 id="msg" class="item">Hmm.. jag gissar på att du kanske klickade på knappen med fel finger.</h1>
+
+        <!-- Om funktionen inte kan laddas fram för någon anledning vissas följande som felkod -->
+        <p id="timeText" class="item">Ånej! Jag glömde min klocka!</p>
+        
+        <img id="img" class="item" src="images/cat.png" alt="Jaha, inga kattbilder isåfall :(">
+    </div>
+
+    <!-- Detta är knappsatsen för alla funktioner. -->
+    <div id="optHead">
+        <div>
+
+            <button id="opt1" class="options" onclick="colorSwap()">Swap colour</button>
+            <button id="opt2" class="options" onclick="imgSwap()">Swap image</button>
+            <button id="opt3" class="options" onclick="headerSwap()">Swap header</button>
+
+        </div>
+        <div>
+
+            <button id="opt4" class="options" onclick="goodVibes()">Good vibes</button>
+            <button id="opt5" class="options" onclick="showElement('image')">Show image</button>
+            <button id="opt6" class="options" onclick="showElement('head')">Show head</button>
+
+        </div>
+        <div>
+
+            <button id="opt7" class="options" onclick="timeAndDate()">Todays time</button>
+            <button id="opt8" class="options" onclick="hideElement('image')">Hide image</button>
+            <button id="opt9" class="options" onclick="hideElement('head')">Hide head</button>
+
+        </div>
+    </div>
+
+</body>
+</html>

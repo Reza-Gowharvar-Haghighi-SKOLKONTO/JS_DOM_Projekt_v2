@@ -1,0 +1,47 @@
+#msg{
+
+    display: none;
+    font-size: 2vw;
+
+}
+
+#timeText{
+
+    display: none;
+    font-size: 1vw;
+
+}
+
+#img{
+
+    display: block;
+    width: 10vw;
+
+}
+
+/* Bestämmer ordningen av knapparna */
+.options{
+    
+    padding: 1vw;
+    margin: 1vw;
+    height: 4.2vw;
+    width: 4.2vw;
+    font-size: 1vw;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+/* Bestämmer vart knappsatsen ska ligga */
+#optHead{
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* Flyttar på punkten som positionen baseras på till mitten av knappsatsen */
+    transform: translate(-50%, -50%);
+    
+}
